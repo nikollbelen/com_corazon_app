@@ -1,0 +1,651 @@
+{
+  "laboratorio": "Corazón Estudio",
+  "verge3dUrl": "./verge3d_assets/Corazon_estudio.html",
+  "imageUrl": "./images/fondo.png",
+  "logoUrl": "./images/logo_chinalco.png",
+  "menuIconImage": "./images/icon1.png",
+  "themeColor": "#10b981",
+  "inicioEstado": {
+    "camara": "Cam_pos01",
+    "camaraDireccion": "Cam_dir01",
+    "ocultarObjetos": [],
+    "animacionInicio": null
+  },
+  "objetos_cristal": [
+    "pPlatonic1"
+  ],
+  "menu": [
+    {
+      "id": "paso1",
+      "ESdescription": "Vista Libre",
+      "ENdescription": "Free View",
+      "icon": "deployed_code",
+      "animaciones": [],
+      "objetos_mostrar": [],
+      "objetos_ocultar": [],
+      "camara": "Cam_pos01",
+      "camaraDireccion": "Cam_dir01",
+      "objeto_resaltar": [],
+      "detener_animaciones": true,
+      "audio_path": "audios/1.mp3"
+    },
+    {
+      "id": "paso2",
+      "ESdescription": "Partes",
+      "ENdescription": "Components",
+      "icon": "settings_input_component",
+      "animaciones": [],
+      "objetos_mostrar": [],
+      "objetos_ocultar": [],
+      "camara": "Cam_pos02",
+      "camaraDireccion": "Cam_dir02",
+      "objeto_resaltar": [],
+      "detener_animaciones": true,
+      "audio_path": "audios/2.mp3",
+      "_children": null,
+      "children": [
+        {
+          "id": "paso2_1",
+          "ESdescription": "Aurícula Derecha",
+          "ENdescription": "Right Atrium",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos03",
+          "camaraDireccion": "Cam_dir03",
+          "etiqueta": "auricula_derecha_eti_lc",
+          "flecha": "auricula_derecha_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_1.mp3",
+          "subtitle": "Cámara cardíaca que recibe la sangre desoxigenada del cuerpo.",
+          "subtitleEN": "Heart chamber that receives deoxygenated blood from the body.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_2",
+          "ESdescription": "Arteria Pulmonar",
+          "ENdescription": "Pulmonary Artery",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos04",
+          "camaraDireccion": "Cam_dir04",
+          "etiqueta": "arteria_pulmonar_eti_lc",
+          "flecha": "arteria_pulmonar_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_2.mp3",
+          "subtitle": "Vaso sanguíneo que transporta sangre desoxigenada hacia los pulmones.",
+          "subtitleEN": "Blood vessel that carries deoxygenated blood to the lungs.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_3",
+          "ESdescription": "Aorta",
+          "ENdescription": "Aorta",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos05",
+          "camaraDireccion": "Cam_dir05",
+          "etiqueta": "Aorta_eti_lc",
+          "flecha": "Aorta_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_3.mp3",
+          "subtitle": "Arteria principal que distribuye sangre oxigenada a todo el organismo.",
+          "subtitleEN": "Main artery that distributes oxygenated blood to the entire body.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_4",
+          "ESdescription": "Vena Cava Superior",
+          "ENdescription": "Superior Vena Cava",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos06",
+          "camaraDireccion": "Cam_dir06",
+          "etiqueta": "vena_cava_sup_eti_lc",
+          "flecha": "vena_cava_sup_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_4.mp3",
+          "subtitle": "Vena que drena la sangre desoxigenada de la cabeza, cuello y miembros superiores.",
+          "subtitleEN": "Vein that drains deoxygenated blood from the head, neck, and upper limbs.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_5",
+          "ESdescription": "Venas Pulmonares",
+          "ENdescription": "Pulmonary Veins",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos07",
+          "camaraDireccion": "Cam_dir07",
+          "etiqueta": "venas_pulmonares_eti_lc",
+          "flecha": "venas_pulmonares_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_5.mp3",
+          "subtitle": "Conductos que llevan la sangre recién oxigenada desde los pulmones al corazón.",
+          "subtitleEN": "Vessels that carry newly oxygenated blood from the lungs to the heart.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_6",
+          "ESdescription": "Ventrículo Izquierdo",
+          "ENdescription": "Left Ventricle",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos08",
+          "camaraDireccion": "Cam_dir08",
+          "etiqueta": "ventriculo_izq_eti_lc",
+          "flecha": "ventriculo_izq_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_6.mp3",
+          "subtitle": "Cámara de paredes gruesas encargada de bombear sangre oxigenada hacia la aorta.",
+          "subtitleEN": "Thick-walled chamber responsible for pumping oxygenated blood into the aorta.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_7",
+          "ESdescription": "Ventrículo Derecho",
+          "ENdescription": "Right Ventricle",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos09",
+          "camaraDireccion": "Cam_dir09",
+          "etiqueta": "ventriculo_der_eti_lc",
+          "flecha": "ventriculo_der_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_7.mp3",
+          "subtitle": "Cámara cardíaca que impulsa la sangre desoxigenada hacia el circuito pulmonar.",
+          "subtitleEN": "Heart chamber that drives deoxygenated blood into the pulmonary circuit.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_8",
+          "ESdescription": "Válvula Pulmonar",
+          "ENdescription": "Pulmonary Valve",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos10",
+          "camaraDireccion": "Cam_dir10",
+          "etiqueta": "valvula_pulmonar_eti_lc",
+          "flecha": "valvula_pulmonar_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_8.mp3",
+          "subtitle": "Estructura que regula el flujo de sangre desde el ventrículo derecho hacia la arteria pulmonar.",
+          "subtitleEN": "Structure that regulates blood flow from the right ventricle into the pulmonary artery.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_9",
+          "ESdescription": "Válvula Mitral",
+          "ENdescription": "Mitral Valve",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos11",
+          "camaraDireccion": "Cam_dir11",
+          "etiqueta": "valvula_mitral_eti_lc",
+          "flecha": "valvula_mitral_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_9.mp3",
+          "subtitle": "Compuerta bicúspide que controla el paso de sangre de la aurícula izquierda al ventrículo izquierdo.",
+          "subtitleEN": "Bicuspid valve controlling blood flow from the left atrium to the left ventricle.",
+          "status": "Activo",
+          "statusEN": "Active"
+        },
+        {
+          "id": "paso2_10",
+          "ESdescription": "Válvula Tricúspide",
+          "ENdescription": "Tricuspid Valve",
+          "icon": "./images/icon2.png",
+          "animaciones": [],
+          "objetos_mostrar": [],
+          "objetos_ocultar": [
+            "venasP03_mesh",
+            "heartP02",
+            "venasP01_mesh",
+            "venasP04_mesh",
+            "venasP02_mesh"
+          ],
+          "camara": "Cam_pos12",
+          "camaraDireccion": "Cam_dir12",
+          "etiqueta": "valvula_tricuspide_eti_lc",
+          "flecha": "valvula_tricuspide_lc",
+          "objeto_resaltar": [],
+          "detener_animaciones": true,
+          "audio_path": "audios/2_10.mp3",
+          "subtitle": "Válvula de tres valvas que conecta la aurícula derecha con el ventrículo derecho.",
+          "subtitleEN": "Three-cusp valve connecting the right atrium to the right ventricle.",
+          "status": "Activo",
+          "statusEN": "Active"
+        }
+      ]
+    },
+    {
+      "id": "paso3",
+      "ESdescription": "Animacion",
+      "ENdescription": "Animation",
+      "icon": "play_circle",
+      "animaciones": [
+        {
+          "nombre": "auiricola_R02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "corazon_C02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "corazon_C03_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "venaCaba_S01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "venaCaba_I01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "troncoPulmonar_C01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "arteriaPulmonar_R02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "arteriaPulmonar_L02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "corazon_Back01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar01_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar01_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar02_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar02_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar03_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar03_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar05_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar05_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar04_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar04_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar06_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "VPulmonar06_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaBic_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaBic_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaBic_03_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_03_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_04_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_05_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "cayadoAortico_06_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_C01_joint",
+          "frame": [
+            1,
+            19
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_C02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_B01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_B02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_A01_joint",
+          "frame": [
+            1,
+            19
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "aCarotida_A02_joint",
+          "frame": [
+            1,
+            19
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaTrip_01_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaTrip_02_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        },
+        {
+          "nombre": "vasculaTrip_03_joint",
+          "frame": [
+            1,
+            38
+          ],
+          "modo": "LoopRepeat"
+        }
+      ],
+      "objetos_mostrar": [],
+      "objetos_ocultar": [],
+      "camara": "Cam_pos02",
+      "camaraDireccion": "Cam_dir02",
+      "objeto_resaltar": [],
+      "detener_animaciones": true,
+      "audio_path": "audios/3.mp3"
+    }
+  ],
+  "ayudas": {
+    "tieneBotonAyuda": true,
+    "tieneBotonObjetivos": true,
+    "tieneBotonEquipo": true,
+    "tieneBotonSonido": true,
+    "tieneBotonLang": true,
+    "tieneBotonGuardar": false
+  },
+  "backgroundColor": "#00c26e",
+  "backgroundType": "image",
+  "laboratorioEN": "Corazón Studio",
+  "objetivos": [],
+  "epp": [],
+  "camaraZoomMax": 100
+}

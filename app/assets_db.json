@@ -79,6 +79,8 @@
     "aCarotida_C01_joint",
     "aCarotida_C02_joint",
     "aiSkyDomeLight1",
+    "areaLight1",
+    "areaLight2",
     "arteriaPulmonar_L01_joint",
     "arteriaPulmonar_L02_joint",
     "arteriaPulmonar_R01_joint",
@@ -200,6 +202,6 @@
     "venaCaba_I01_joint",
     "venaCaba_S01_joint"
   ],
-  "lastUpdated": "2026-06-06T07:41:03.331Z",
+  "lastUpdated": "2026-06-12T05:31:45.492Z",
   "source": "GLTF Scanner"
 }
